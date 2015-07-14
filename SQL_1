@@ -1,0 +1,4 @@
+create table blah
+(blahID int, NOT NULL,
+blahName varchar, NULL
+)
