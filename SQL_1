@@ -2,3 +2,18 @@ create table blah
 (blahID int, NOT NULL,
 blahName varchar, NULL
 )
+
+create table blah
+(blahID int, NOT NULL,
+blahName varchar, NULL
+)
+
+ALTER PROCEDURE [dbo].[spSales_For_Tableau_Demo] 
+	
+AS
+BEGIN
+	
+select 
+sl.[Document No_],[Line No_],[Description],Quantity,[Unit Price],Amount,[Season Code] 
+from Blah
+
