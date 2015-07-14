@@ -1,0 +1,2 @@
+create index IX_Blah_ID
+create index IX Blah_Name
